@@ -6,19 +6,21 @@
     - git checkout master
 4. inisiasi project (membuat project)
     - npm init -y ; -y digunakan agar disetting mengikuti todo-app
-5. login heroku
+5. install depedencies
+    - npm install
+6. login heroku
     - heroku login
-6. init dan remote
+7. init dan remote
     - git init
     - heroku git:remote -a implement-test
-7. menandai seluruh file untuk di-commit
+8. menandai seluruh file untuk di-commit
     - git add .
-8. commit
+9. commit
     - git commit -am "make it better"
-9. push ke heroku
+10. push ke heroku
     - git push heroku master
-10. cek di browser
+11. cek di browser
 
-11. Catatan:
+12. Catatan:
     terjadi error ketika membuka app
     https://implement-test.herokuapp.com/
